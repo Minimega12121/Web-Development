@@ -1,0 +1,143 @@
+body{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    margin:0;
+    color:#40514E;
+    font-weight: 300;
+
+}
+p{
+    line-height: 2;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-size: 5.8rem;
+    line-height: 1.69;
+    font-family: 'Merienda', cursive;
+    color: #FF8989;
+    /* SECOND METHOD TO ALLIGN
+    margin:0 auto 0 auto; */
+}
+hr{
+    border-style:none;
+    width: 8%;
+    border-top-style:dotted;
+    border-width: 10px;
+    margin:40px auto 40px auto;
+    border-color: #FF6666;
+    
+}
+h2{
+    color: #FF8989;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+h3{
+    color: #FF6666; 
+}
+a{
+    color: #FF6666;  
+}
+.top-container{
+    background-color: #FFEADD;
+    padding: 20px;
+    padding-top: 100px;
+}
+.top-cloud{
+    position: absolute;
+    top:50px;
+    right: 450px;
+}
+.bottom-cloud{
+    position: absolute;
+    left:400px;
+    bottom:400px;
+}
+.skill-row{
+    width: 60%;
+    margin: 200px auto 200px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.cube{
+    height: 300px;
+    width: 300px;
+   border-style: none;
+   float: left;
+   margin-right: 30px;
+}
+.devpic{
+    width:500px;
+    height: 300px;
+    float: right;
+    margin-left: 30px;
+}
+.archit{
+   margin-top:100px;
+   border-radius: 100%;
+   width:17%;
+   
+}
+.intro{
+    width:30%;
+    margin:auto;
+}
+.contact-msg{
+    width:40%;
+    margin:40px auto 40px auto;
+}
+.middle-container{
+    background-color: #FFF6F6;
+}
+.bottom-container{
+    background-color: #f0a1a1;
+    height:150px;
+    padding-top: 40px;
+}
+.contact-me{
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+.footer-link{
+    padding: 30px;
+    text-decoration: none;
+    font-family: 'Merienda', cursive;
+}
+.copyright{
+    font-size:1rem;
+    color:#FFEADD;
+    margin-top:30px;
+}
+.btn {
+    background: #FF8989;
+    background-image: -webkit-linear-gradient(top, #FF8989, #FF8989);
+    background-image: -moz-linear-gradient(top, #FF8989, #FF8989);
+    background-image: -ms-linear-gradient(top, #FF8989, #FF8989);
+    background-image: -o-linear-gradient(top, #FF8989, #FF8989);
+    background-image: linear-gradient(to bottom, #FF8989, #FF8989);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .btn:hover {
+    background: #FF6666;
+    background-image: -webkit-linear-gradient(top, #FF6666, #FF6666);
+    background-image: -moz-linear-gradient(top, #FF6666, #FF6666);
+    background-image: -ms-linear-gradient(top, #FF6666, #FF6666);
+    background-image: -o-linear-gradient(top, #FF6666, #FF6666);
+    background-image: linear-gradient(to bottom, #FF6666, #FF6666);
+    text-decoration: none;
+  }
+

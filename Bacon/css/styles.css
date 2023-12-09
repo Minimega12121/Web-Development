@@ -1,0 +1,34 @@
+/******************Tag selectors**************/
+body{
+    background-color: red;
+}
+
+h1{
+    font-size:150px;
+}
+
+
+img:hover{
+    border-style: dashed;
+    border-color: rgb(48, 27, 48);
+    border-width: 10px;
+}
+
+/******************Class selectors**************/
+
+.bacon{
+    width: 10%;
+}
+.broccli{
+    width: 10%;
+}
+.rad{
+    border-radius: 100%;
+}
+/* class can be of multiple elements but there can only be one id
+id and class overrides tag selector as they are more specific */
+
+/******************Class selectors**************/
+#head{
+    color: bisque;
+}

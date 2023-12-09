@@ -1,0 +1,36 @@
+/* 
+selector{property:value;} */
+
+
+body{
+    background-color: #EAF6F6;
+}
+hr{
+    border-color: gray;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    width: 5%;
+   height: 0;
+}
+h3{
+    color: #66BFBF;
+}
+h1{
+    color: #66BFBF;
+}
+
+
+.archit{
+    border-radius: 100%;
+    border-style: groove;
+    border-width: 5px;
+}
+/* .archit:hover{
+    border-radius: 100%;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: gold;
+} */
+
+
