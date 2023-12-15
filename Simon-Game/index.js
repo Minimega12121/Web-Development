@@ -15,13 +15,11 @@ $(document).keypress(function(){
 var userChosenColor;
 
 $(".btn").click(function(){ 
-    if(started){
     var userChosenColor = this.getAttribute("id");
     animatePress(userChosenColor);
     playSound(userChosenColor);
     userClickedPattern.push(userChosenColor);
     checkAnswer(userClickedPattern.length-1);
-    }
     
 });
 
